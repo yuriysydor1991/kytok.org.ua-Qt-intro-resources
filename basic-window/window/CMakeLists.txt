@@ -20,7 +20,7 @@ endif()
 add_custom_target(
         ArbitraryWindowMocCompilationTarget
         COMMAND ${Qt5AUTOMOC_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/ArbitraryWindow.h" -o ${CMAKE_BINARY_DIR}/ArbitraryWindow.moc.h
-        BYPRODUCTS ${CMAKE_BINARY_DIR}/EditorWindow.moc.h
+        BYPRODUCTS ${CMAKE_BINARY_DIR}/ArbitraryWindow.moc.h
         SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/ArbitraryWindow.h
         COMMENT "QT5 ArbitraryWindow header moc generation command"
 )
