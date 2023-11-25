@@ -11,7 +11,6 @@
 #include <QAction>
 #include <QMessageBox>
 
-// тривіальний конструктор
 WindowWithMenu::WindowWithMenu()
 {
   // створюємо меню "Програма" на панелі меню
