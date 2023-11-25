@@ -8,10 +8,10 @@ QTLIBS=`pkg-config --libs Qt5Widgets` \
 
 debug:
 	mkdir -vp build
-	moc window/ArbitraryWindow.h -o build/ArbitraryWindow.moc.h
-	c++ -c -fPIC $(CXXFLAGS) window/ArbitraryWindow.cpp -o build/ArbitraryWindow.cpp.o
+	moc window/WindowWithMenu.h -o build/WindowWithMenu.moc.h
+	c++ -c -fPIC $(CXXFLAGS) window/WindowWithMenu.cpp -o build/WindowWithMenu.cpp.o
 	c++ -c -fPIC $(CXXFLAGS) main.cpp -o build/main.cpp.o
-	c++ -o build/Qt5WindowWithMenu build/main.cpp.o build/ArbitraryWindow.cpp.o $(QTLIBS)
+	c++ -o build/Qt5WindowWithMenu build/main.cpp.o build/WindowWithMenu.cpp.o $(QTLIBS)
 
 clean:
 	rm -fr build
