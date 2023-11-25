@@ -12,7 +12,7 @@
 #include <QLineEdit>
 
 /*
- * Створюємо клас довільного вікна ArbitraryWindow
+ * Створюємо клас вікна HelloButtonWindow
  * для відображення на екрані.
 */
 class HelloButtonWindow:
