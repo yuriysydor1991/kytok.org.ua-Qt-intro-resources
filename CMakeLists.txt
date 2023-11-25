@@ -13,3 +13,6 @@ project(
 # і QMainWindow-похідного класу для відображення
 # пустого головного вікна
 add_subdirectory(basic-window)
+
+# прикелад для вікна з гловним меню
+add_subdirectory(window-with-menu)
