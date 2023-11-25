@@ -16,3 +16,6 @@ add_subdirectory(basic-window)
 
 # прикелад для вікна з гловним меню
 add_subdirectory(window-with-menu)
+
+# приклад для вікна з кнопкою і полями
+add_subdirectory(button-with-hello)
